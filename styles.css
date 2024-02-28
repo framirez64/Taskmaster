@@ -76,3 +76,6 @@ p {
     margin: 1px; /* Add some margin outside the block */
 }
 
+#uniqueTitle {
+    text-align: center;
+  }
