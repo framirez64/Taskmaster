@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- Corrected Google Fonts link for DM Serif Display -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <title>TaskMaster Home</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first HTML page.</p>
+    <h1>TaskMaster Dashboard</h1>
+    <div class ="task_window">
+        <div class="task_window_title">
+            <div class ="search-box">
+                <label for="search">Search: </label>
+                <input type="text" id="search" placeholder="Enter search term...">
+            </div>
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by" name="sort-by">
+                <option value="dayDue">Day due</option>
+                <option value="dayAssigned">Day assigned</option>
+                <option value="importance">Importance</option>
+                <option value="name">Name</option>
+                <option value="type">Group</option>
+            </select>
+        </div>
+    <div class ="new_entry">
+        <div class="plus">
+            +
+        </div>
+    </div>    
+    </div>
 </body>
+
+
+
+
+
 </html>

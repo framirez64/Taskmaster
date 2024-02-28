@@ -1,10 +1,78 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'DM Serif Display', serif;
 }
 h1 {
-    color: navy;
+    color: rgb(0, 0, 0);
+
 }
 p {
     color: #555;
 }
+.task_window_title{
+    background-color: rgb(114, 147, 147);
+    border: 1px solid black; /* Add an outline with specified thickness */
+    border-radius: 5.5px; /* Round the corners */
+    padding: 10px; /* Add some spacing inside the block */
+    width: 300px; /* Specify the width of the block */
+    height: 40px; /* Specify the height of the block */
+}
+
+.new_entry {
+    width: 40px; 
+    height: 40px; 
+    margin-left: 320px;
+    background-color: #589cdc;
+    border-width: 2px; /* Border width */
+    border-style: solid; /* Border style */
+    border-color: rgb(13, 8, 8); /* Border color */
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.plus{
+    font-size:40px;
+    font-weight:bold;
+    color:#000000
+}
+
+
+.task_window_title select {
+    margin-top: 5px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    /* Additional styles */
+}
+
+  /* Search box styling */
+  .task_window .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task_window .search-box input[type="text"] {
+    flex: 1;
+    padding: 1px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-left:5px;
+  }
+
+
+
+.task_window {
+    background-color: rgb(185, 214, 223); /* Change the background color */
+    border: 1px solid black; /* Add an outline with specified thickness */
+    border-radius: 5.5px; /* Round the corners */
+    padding: 0px; /* Add some spacing inside the block */
+    width: 320px; /* Specify the width of the block */
+    height: 600px; /* Specify the height of the block */
+    margin: 1px; /* Add some margin outside the block */
+}
+
