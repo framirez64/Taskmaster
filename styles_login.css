@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'DM Serif Display', serif;
+}
+
+.login_window {
+    position: absolute; /* Set the position to absolute */
+    top: 50%; /* Set the top position to 50% of the viewport height */
+    left: 50%; /* Set the left position to 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Use transform to adjust position relative to its own dimensions */
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(97, 217, 217, 0.348);
+    border: 1px solid black; /* Add an outline with specified thickness */
+    border-radius:30px; /* Round the corners */
+    padding: 10px; /* Add some spacing inside the block */
+    width: 300px; /* Specify the width of the block */
+    height: 500px; /* Specify the height of the block */
+    z-index: 1; /* Set a lower z-index for the login window */
+}
+
+
+h1 {
+    color: #333; /* Set the text color */
+    font-size: 32px; /* Set the font size */
+    font-weight: bold; /* Set the font weight to bold */
+    text-align: center; /* Center the text */
+    position: relative; /* Set the position to relative */
+    top: -20px; /* Shift the heading up */
+    margin-bottom: 280px; /* Add some space below the heading */
+}
+.login_inputs{
+    color: #333; /* Set the text color */
+    font-size: 22px; /* Set the font size */
+    font-weight: bold; /* Set the font weight to bold */
+    text-align: center; /* Center the text */
+    position: relative; /* Set the position to relative */
+    top: -200px; /* Shift the heading up */
+}
+/* Set the width of input elements */
+.login_inputs input[type="text"],
+.login_inputs input[type="password"] {
+    width: 250px; /* Adjust the width as needed */
+}
+
+.button_container{
+    position: relative;
+    bottom: 190px;
+}
